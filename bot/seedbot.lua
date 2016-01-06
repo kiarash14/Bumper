@@ -242,7 +242,7 @@ Vamptacus
 Our channels
 @telebumper [English]
 ]],
-    h_text = [[
+    help_text = [[
 Commands list :
 
 !kick [username|id]   اخراج کن
