@@ -242,100 +242,100 @@ Vamptacus
 Our channels
 @telebumper [English]
 ]],
-    help_text = [[
+    h_text = [[
 Commands list :
 
-!kick [username|id]  
+!kick [username|id]   اخراج کن
 You can also do it by reply
 
-!ban [ username|id]
+!ban [ username|id] برای همیشه اخراج کن
 You can also do it by reply
 
-!unban [id]
+!unban [id] از برای همیشه اخراج شدن در بیار
 You can also do it by reply
 
-!who
+!who لیست افراد گروه
 Members list
 
-!modlist
+!modlist لیست ادمین ها
 Moderators list
 
-!promote [username]
+!promote [username] ادمین کن
 Promote someone
 
-!demote [username]
+!demote [username] از ادمین در بیار
 Demote someone
 
-!kickme
+!kickme منو از گروه اخراج کن
 Will kick user
 
-!about
+!about در مورد گروه
 Group description
 
-!setphoto
+!setphoto عکس گروهو عوض کن + خودکار قفل میشود
 Set and locks group photo
 
-!setname [name]
+!setname [name] برای گروه اسم بزار
 Set group name
 
-!rules
+!rules قانون گروه
 Group rules
 
-!id
+!id ایدیه من
 return group id or user id
 
-!help
+!h کمک 
 
-!lock [member|name|bots]
+!lock [member|name|bots] قفل کن (اعضای گروه،اسم.ربات)
 Locks [member|name|bots] 
 
-!unlock [member|name|photo|bots]
+!unlock [member|name|photo|bots] از قفل در بیار (اعضای گروه،اسم.عکس.ربات)
 Unlocks [member|name|photo|bots]
 
-!set rules <text>
+!set rules <text> قانون بزار 
 Set <text> as rules
 
-!set about <text>
+!set about <text> در مورد گروه بزار
 Set <text> as about
 
-!settings
+!settings تنظیمات گروه
 Returns group settings
 
-!newlink
+!newlink لینک جدید بده
 create/revoke your group link
 
-!link
+!link لینک بده
 returns group link
 
-!owner
+!owner ادمین اصلی گروه
 returns group owner id
 
-!setowner [id]
+!setowner [id] ادمین اصلی گروه رو عوض کن
 Will set id as owner
 
-!setflood [value]
+!setflood [value] هرکی چند بار پشت سر هم یهمتنی رو بده از گروه اخراج بشه (اسپم)
 Set [value] as flood sensitivity
 
-!stats
+!stats هرکی چه قدر حرف زده
 Simple message statistics
-
-!save [value] <text>
+ 
+!save [value] <text> سیو کن
 Save <text> as [value]
 
-!get [value]
+!get [value] بده
 Returns text of [value]
 
-!clean [modlist|rules|about]
+!clean [modlist|rules|about] پاک کن(ادمین ها،قانون،درمورد گروه)
 Will clear [modlist|rules|about] and set it to nil
 
-!res [username]
+!res [username] مشخصات 
 returns user id
 "!res @username"
 
 !log
 will return group logs
 
-!banlist
+!banlist لیست اون کسایی که برای همیشه از گروه اخراج شده اند
 will return group ban list
 
 **U can use both "/" and "!" 
