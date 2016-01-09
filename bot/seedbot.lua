@@ -222,7 +222,7 @@ function create_config( )
     },
     sudo_users = {100096055,116943847,0,tonumber(our_id)},--Sudo users
     disabled_channels = {100096055},
-    realm = {100096055},--Realms Id
+    realm = {91011805},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[Telebumper v1
 An advance Administration bot based on yagop/telegram-bot 
@@ -284,7 +284,7 @@ Group rules
 !id ایدیه من
 return group id or user id
 
-!h کمک 
+!help کمک 
 
 !lock [member|name|bots] قفل کن (اعضای گروه،اسم.ربات)
 Locks [member|name|bots] 
